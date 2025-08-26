@@ -30,7 +30,7 @@ app.post("/subscribe", async (req, res) => {
   try {
     await transporter.sendMail({
       from: `"Envirofarm Newsletter" <support@envrofarm.com>`,
-      to: "charlescharlesy@gmail.com", // Admin receives notification
+      to: "kukhonadigital@gmail.com", // Admin receives notification
       subject: "New Newsletter Subscription",
       text: `User with email ${email} has requested to join the newsletter.`,
     });
